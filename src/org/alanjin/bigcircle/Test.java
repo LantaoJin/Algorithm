@@ -15,6 +15,6 @@ public class Test {
         Point p6 = new Point(random.nextInt(20), random.nextInt(20));
         Axis axis = new Axis(p0, p1, p2, p3, p4, p5, p6);
         Circle theBigCircle = axis.findBigCircle();
-        System.out.println(theBigCircle);
+        System.out.println("The biggest circle is " + theBigCircle);
     }
 }

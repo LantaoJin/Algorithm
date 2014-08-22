@@ -38,6 +38,7 @@ public class Axis {
                 boolean allIn = true;
                 for (int k = i + 1; k < allPoints.size(); k++) {
                     if (!circle.inThisCircle(allPoints.get(k))) {
+                        System.out.println(allPoints.get(k) + " is out the circle " + circle);
                         allIn = false;
                         break;
                     }
